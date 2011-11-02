@@ -72,6 +72,11 @@ document.forms[0].selectedtext.value = selRange.toString();
 }
 alert(document.body);
 document.body.addEventListener("mouseup", getSel, false); 
+document.body.appendChild(document.createElement('script')).src='http://ajax.microsoft.com/ajax/jquery/jquery-1.4.min.js';
+document.body.appendChild(document.createElement('script')).src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js';
+document.body.appendChild(document.createElement('script')).src='http://jsplumb.googlecode.com/files/jquery.jsPlumb-1.3.3-all-min.js';
+document.body.appendChild(document.createElement('script')).src='http://raw.github.com/malsup/corner/master/jquery.corner.js';
+
 
 
 
