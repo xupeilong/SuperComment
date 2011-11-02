@@ -28,7 +28,7 @@ newComment.style.position = "absolute";
 newComment.style.background = "red";
 newComment.style.left = 300;
 newComment.style.top = 200;
-newNode.appendChild(newComment);
+document.body.appendChild(newComment);
 
 
 jsPlumb.setRenderMode(jsPlumb.VML);
@@ -66,9 +66,6 @@ $("#sss" + num).css("z-index", 2700);
 jsPlumb.draggable($("#sss" + num));
 
 
-
-
-document.forms[0].selectedtext.value = selRange.toString();
 }
 }
 alert(document.body);
