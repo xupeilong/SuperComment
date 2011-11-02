@@ -8,6 +8,7 @@ var sel = window.getSelection();
 var selRange = sel.getRangeAt(0);
 if (!sel.isCollapsed)
 {
+sel.collapse(sel.anchorNode, 0);
 alert("go"); 
 var newNode = document.createElement("span");
 num++;
