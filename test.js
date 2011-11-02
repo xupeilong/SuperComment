@@ -22,12 +22,12 @@ var newComment = document.createElement("div");
 newComment.id = "sss" + num;
 newComment.class = "comment";
 newComment.innerText = "sss";
-newComment.style.height = 300;
-newComment.style.width = 300;
-newComment.style.position = "fixed";
+newComment.style.height = 300 + "px";
+newComment.style.width = 300 + "px";
+newComment.style.position = "absolute";
 newComment.style.background = "red";
-newComment.style.left = 300;
-newComment.style.top = 200;
+newComment.style.left = 300 + "px";
+newComment.style.top = 200 + "px";
 document.body.appendChild(newComment);
 
 
