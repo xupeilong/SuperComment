@@ -183,6 +183,7 @@ document.body.appendChild(document.createElement('script')).src='http://ajax.mic
 document.body.appendChild(document.createElement('script')).src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js';
 document.body.appendChild(document.createElement('script')).src='https://raw.github.com/xupeilong/SuperComment/master/jquery.corner.js';
 document.body.appendChild(document.createElement('script')).src='http://jsplumb.googlecode.com/files/jquery.jsPlumb-1.3.3-all-min.js';
+document.body.appendChild(document.createElement('script')).src='http://james.padolsey.com/demos/plugins/jQuery/autoresize.jquery.min.js';
 
 
 
